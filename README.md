@@ -1,5 +1,8 @@
 <h1 align="center">Hi 👋, I'm Fady Shehata</h1>
-<h3 align="center">Flutter developer</h3>
+<h3 align="center">I'm a hard-worker, have special motivation to prove myself in this job, passion to learn more and gain experience.
+I have some of Soft-skills like Teamwork, Communication skills, Leadership, skills and Flexibility.
+I'm interested in all software engineering technologies and l have the ability to learn any programming language that helps me to be software developer.
+My main technology is Mobile developer - Flutter developer- I have enough knowledge of responsibility and requirements.</h3>
 
 - 💬 Ask me about **android, flutter**
 
