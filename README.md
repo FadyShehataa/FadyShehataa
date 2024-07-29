@@ -138,8 +138,3 @@ You will earn focuscoins whether you read the information you are interested in 
 
 <p><a href="https://play.google.com/store/apps/details?id=com.focuscoin.app" target="_blank"><img alt="Google Play" src="https://img.shields.io/badge/Get%20it%20on%20google%20play-blue.svg?style=for-the-badge&logo=google-play" /></a> <p>
 
-<hr>
-
-
-
-
