@@ -76,7 +76,7 @@ The application provides the service of delivering orders in a convenient and ea
 <hr>
 
 
-### mayetAllah | معية الله
+### Mayet Allah | معية الله
 
 
 
