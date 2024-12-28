@@ -204,11 +204,9 @@ App Features:
 
 <p><a href="https://play.google.com/store/apps/details?id=com.dcsec.quickcargoodriver" target="_blank"><img alt="Google Play" src="https://img.shields.io/badge/Get%20it%20on%20google%20play-blue.svg?style=for-the-badge&logo=google-play" /></a><p>
 
-<hr>
 
-  
 <!---
-
+<hr>
 
 ### Smart Farmer | الفلاح الذكى
 Smart Farmer, an application by Fifth Generation Software Company, is an integrated service application that serves a large sector of agriculturalists. It identifies plant diseases using artificial intelligence and provides information about agricultural companies and prices for various inputs and outputs of the agricultural process, such as pesticides, seeds, fertilizers, selling crops, and communicates with agricultural consultants.
