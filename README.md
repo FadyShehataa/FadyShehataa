@@ -57,7 +57,7 @@
 ### Torido | توريدو
 It is an application that serves a large segment of users of light transport trucks of all kinds (Dina) and provides service to the customer and service providers by facilitating obtaining several prices and the best transportation price and also the best offers provided to the service provider and the application works to complete the request with ease and comfort To the customer and the service provider at a satisfactory price
 
-هو عبارة عن تطبيق يخدم شريحة كبيرة من مستخدمي شاحنات النقل الخفيف بجميع انواعها ( دينا ) ويقدم الخدمة للعميل و مقدمي الخدمة عن طريق تسهيل الحصول علي عدة تسعيرات و افضل سعر نقل و ايضاً افضل العروض المقدمة لمقدم الخدمة و يعمل التطبيق علي انجاز الطلب بكل سهولة وراحة للعميل ومقدم الخدمة باسعر ترضي
+هو عبارة عن تطبيق يخدم شريحة كبيرة من مستخدمي شاحنات النقل الخفيف بجميع انواعها ( دينا ) ويقدم الخدمة للعميل و مقدمي الخدمة عن طريق تسهيل الحصول علي عدة تسعيرات و افضل سعر نقل و ايضاً افضل العروض المقدمة لمقدم الخدمة و يعمل التطبيق علي انجاز الطلب بكل سهولة وراحة للعميل ومقدم الخدمة باسعار ترضي الجميع
 
 
 
@@ -70,7 +70,7 @@ It is an application that serves a large segment of users of light transport tru
 
 It is an application that serves a large segment of users of light transport trucks of all kinds (Dina) and provides service to the customer and service providers by facilitating obtaining several prices and the best transportation price and also the best offers provided to the service provider and the application works to complete the request with ease and comfort To the customer and the service provider at a satisfactory price
 
-هو عبارة عن تطبيق يخدم شريحة كبيرة من مستخدمي شاحنات النقل الخفيف بجميع انواعها ( دينا ) ويقدم الخدمة للعميل و مقدمي الخدمة عن طريق تسهيل الحصول علي عدة تسعيرات و افضل سعر نقل و ايضاً افضل العروض المقدمة لمقدم الخدمة و يعمل التطبيق علي انجاز الطلب بكل سهولة وراحة للعميل ومقدم الخدمة باسعر ترضي
+هو عبارة عن تطبيق يخدم شريحة كبيرة من مستخدمي شاحنات النقل الخفيف بجميع انواعها ( دينا ) ويقدم الخدمة للعميل و مقدمي الخدمة عن طريق تسهيل الحصول علي عدة تسعيرات و افضل سعر نقل و ايضاً افضل العروض المقدمة لمقدم الخدمة و يعمل التطبيق علي انجاز الطلب بكل سهولة وراحة للعميل ومقدم الخدمة باسعار ترضي الجميع
 
 
 <p><a href="https://play.google.com/store/apps/details?id=com.torido.driver" target="_blank"><img alt="Google Play" src="https://img.shields.io/badge/Get%20it%20on%20google%20play-blue.svg?style=for-the-badge&logo=google-play" /></a> <a href="https://apps.apple.com/ug/app/torido-naqel-%D8%AA%D9%88%D8%B1%D9%8A%D8%AF%D9%88-%D9%86%D8%A7%D9%82%D9%84/id1554352273" target="_blank"><img alt="App Store" src="https://img.shields.io/badge/Get%20it%20on%20app%20store-black.svg?style=for-the-badge&logo=app-store&logoColor=white" /></a><p>
