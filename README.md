@@ -30,29 +30,7 @@
 
 <h2> Samples from my projects </h2>
 
-### BHC
 
-The BHC application is one of the most important and leading applications in the field of providing delivery services in the Kingdom of Saudi Arabia. The application relies on a wide network of delivery agents in order to cover customer requests in the city of Jeddah and seeks to cover all parts of the Kingdom in the fastest time.
-The application provides the service of delivering orders in a convenient and easy way by linking users with delivery representatives, communicating with them, and following up on their orders in an easy and smooth manner. The application also provides ordering services from restaurants and many other features.
-
-تطبيق BHC يعد من أهم التطبيقات الرائدة في مجال تقديم خدمات التوصيل في المملكة العربية السعودية. يعتمد التطبيق على شبكة واسعة من مناديب التوصيل بهدف تغطية طلبات العملاء في مدينة جدة ويسعى لتغطية جميع انحاء المملكة في أسرع وقت.
-يقدم التطبيق خدمة توصيل الطلبات بطريقة ميسرة وسهلة من خلال ربط المستخدمين بمندوبي التوصيل والتواصل معهم ومتابعة طلباتهم بشكل ميسر وسلس. كما ويقدم التطبيق خدمة الطلبات من المطاعم والعديد من المميزات الأخرى.
-
-<p><a href="https://play.google.com/store/apps/details?id=com.bhc.app" target="_blank"><img alt="Google Play" src="https://img.shields.io/badge/Get%20it%20on%20google%20play-blue.svg?style=for-the-badge&logo=google-play" /></a> <a href="https://apps.apple.com/eg/app/bhc/id6479562742" target="_blank"><img alt="App Store" src="https://img.shields.io/badge/Get%20it%20on%20app%20store-black.svg?style=for-the-badge&logo=app-store&logoColor=white" /></a><p>
-
-<hr>
-
-### BHC Delivery
-
-The BHC application is one of the most important and leading applications in the field of providing delivery services in the Kingdom of Saudi Arabia. The application relies on a wide network of delivery agents in order to cover customer requests in the city of Jeddah and seeks to cover all parts of the Kingdom in the fastest time.
-The application provides the service of delivering orders in a convenient and easy way by linking users with delivery representatives, communicating with them, and following up on their orders in an easy and smooth manner. The application also provides ordering services from restaurants and many other features.
-
-تطبيق BHC يعد من أهم التطبيقات الرائدة في مجال تقديم خدمات التوصيل في المملكة العربية السعودية. يعتمد التطبيق على شبكة واسعة من مناديب التوصيل بهدف تغطية طلبات العملاء في مدينة جدة ويسعى لتغطية جميع انحاء المملكة في أسرع وقت.
-يقدم التطبيق خدمة توصيل الطلبات بطريقة ميسرة وسهلة من خلال ربط المستخدمين بمندوبي التوصيل والتواصل معهم ومتابعة طلباتهم بشكل ميسر وسلس. كما ويقدم التطبيق خدمة الطلبات من المطاعم والعديد من المميزات الأخرى.
-
-<p><a href="https://play.google.com/store/apps/details?id=com.bhc.delivery" target="_blank"><img alt="Google Play" src="https://img.shields.io/badge/Get%20it%20on%20google%20play-blue.svg?style=for-the-badge&logo=google-play" /></a> <a href="https://apps.apple.com/eg/app/bhc-delivery/id6479564398" target="_blank"><img alt="App Store" src="https://img.shields.io/badge/Get%20it%20on%20app%20store-black.svg?style=for-the-badge&logo=app-store&logoColor=white" /></a><p>
-
-<hr>
 
 ### Talbinah | تلبينة
 
@@ -73,6 +51,176 @@ The application provides the service of delivering orders in a convenient and ea
 
 <p><a href="https://play.google.com/store/apps/details?id=com.talbinah.doctor" target="_blank"><img alt="Google Play" src="https://img.shields.io/badge/Get%20it%20on%20google%20play-blue.svg?style=for-the-badge&logo=google-play" /></a> <a href="https://apps.apple.com/us/app/talbinah-doctor/id6465690953" target="_blank"><img alt="App Store" src="https://img.shields.io/badge/Get%20it%20on%20app%20store-black.svg?style=for-the-badge&logo=app-store&logoColor=white" /></a><p>
 
+<hr>
+
+
+### Torido | توريدو
+It is an application that serves a large segment of users of light transport trucks of all kinds (Dina) and provides service to the customer and service providers by facilitating obtaining several prices and the best transportation price and also the best offers provided to the service provider and the application works to complete the request with ease and comfort To the customer and the service provider at a satisfactory price
+
+هو عبارة عن تطبيق يخدم شريحة كبيرة من مستخدمي شاحنات النقل الخفيف بجميع انواعها ( دينا ) ويقدم الخدمة للعميل و مقدمي الخدمة عن طريق تسهيل الحصول علي عدة تسعيرات و افضل سعر نقل و ايضاً افضل العروض المقدمة لمقدم الخدمة و يعمل التطبيق علي انجاز الطلب بكل سهولة وراحة للعميل ومقدم الخدمة باسعر ترضي
+
+
+
+<p><a href="https://play.google.com/store/apps/details?id=com.torido.app" target="_blank"><img alt="Google Play" src="https://img.shields.io/badge/Get%20it%20on%20google%20play-blue.svg?style=for-the-badge&logo=google-play" /></a> <a href="https://apps.apple.com/ug/app/torido-%D8%AA%D9%88%D8%B1%D9%8A%D8%AF%D9%88/id1554338202" target="_blank"><img alt="App Store" src="https://img.shields.io/badge/Get%20it%20on%20app%20store-black.svg?style=for-the-badge&logo=app-store&logoColor=white" /></a><p>
+
+<hr>
+
+
+### Torido Naqel | توريدو ناقل
+
+It is an application that serves a large segment of users of light transport trucks of all kinds (Dina) and provides service to the customer and service providers by facilitating obtaining several prices and the best transportation price and also the best offers provided to the service provider and the application works to complete the request with ease and comfort To the customer and the service provider at a satisfactory price
+
+هو عبارة عن تطبيق يخدم شريحة كبيرة من مستخدمي شاحنات النقل الخفيف بجميع انواعها ( دينا ) ويقدم الخدمة للعميل و مقدمي الخدمة عن طريق تسهيل الحصول علي عدة تسعيرات و افضل سعر نقل و ايضاً افضل العروض المقدمة لمقدم الخدمة و يعمل التطبيق علي انجاز الطلب بكل سهولة وراحة للعميل ومقدم الخدمة باسعر ترضي
+
+
+<p><a href="https://play.google.com/store/apps/details?id=com.torido.driver" target="_blank"><img alt="Google Play" src="https://img.shields.io/badge/Get%20it%20on%20google%20play-blue.svg?style=for-the-badge&logo=google-play" /></a> <a href="https://apps.apple.com/ug/app/torido-naqel-%D8%AA%D9%88%D8%B1%D9%8A%D8%AF%D9%88-%D9%86%D8%A7%D9%82%D9%84/id1554352273" target="_blank"><img alt="App Store" src="https://img.shields.io/badge/Get%20it%20on%20app%20store-black.svg?style=for-the-badge&logo=app-store&logoColor=white" /></a><p>
+
+<hr>
+
+
+
+### REDF
+An application affiliated with the Real Estate Development Fund in Saudi Arabia. The application aims to facilitate the work of the legal management system of the Real Estate Development Fund. 
+The application includes several internal services for the organization:
+- Cases Service
+- Legal Consulting and Document Management Service
+- Task Management
+- General Settings
+
+تطبيق تابع لصندوق التنمية العقارية بالسعودية. يهدف التطبيق إلى تسهيل عمل نظام الإدارة القانونية لصندوق التنمية العقارية. 
+يتضمن التطبيق العديد من الخدمات الداخلية للمؤسسة:
+- خدمة القضايا
+- خدمة الاستشارات القانونية وإدارة الوثائق
+- إدارة المهام
+- الإعدادات العامة
+
+<p>
+
+  <a href="https://play.google.com/store/apps/details?id=com.wakeb.redf" target="_blank"><img alt="Google Play" src="https://img.shields.io/badge/Get%20it%20on%20google%20play-blue.svg?style=for-the-badge&logo=google-play" /></a>
+  
+<hr>
+
+### Hope Athletes
+Hope is a groundbreaking sports app designed to elevate athletes' journeys. Enjoy exclusive discounts of up to 35% on top sports brands, participate in giveaways, and stand a chance to win full sponsorships. Our app introduces a pioneering athlete insurance program, a secure space to track achievements, and access to a thriving sports community. Empower your athletic endeavors with Hope, the first-of-its-kind platform committed to supporting athletes at every step.
+
+تطبيق Hope هو تطبيق رياضي رائد مصمم للارتقاء برحلات الرياضيين. استمتع بخصومات حصرية تصل إلى 35% على أفضل العلامات التجارية الرياضية، وشارك في الهدايا، واحصل على فرصة للفوز بالرعايات الكاملة. يقدم تطبيقنا برنامج تأمين رياضي رائد، ومساحة آمنة لتتبع الإنجازات، والوصول إلى مجتمع رياضي مزدهر. قم بتمكين مساعيك الرياضية مع Hope، المنصة الأولى من نوعها الملتزمة بدعم الرياضيين في كل خطوة.
+<p>
+ <a href="https://play.google.com/store/apps/details?id=com.getcard.hope" target="_blank"><img alt="Google Play" src="https://img.shields.io/badge/Get%20it%20on%20google%20play-blue.svg?style=for-the-badge&logo=google-play" /></a> <a href="https://apps.apple.com/tr/app/hope-athletes/id6476447031" target="_blank"><img alt="App Store" src="https://img.shields.io/badge/Get%20it%20on%20app%20store-black.svg?style=for-the-badge&logo=app-store&logoColor=white" /></a><p>
+
+<hr>
+
+
+### Soluche online
+A comprehensive online education application designed to meet the needs of students in Algeria and knowledge enthusiasts of all ages. Whether you want to acquire new skills, deepen your academic knowledge, or explore fascinating fields, our platform provides tools and resources tailored to every learning path.
+
+App Features:
+- Diverse courses in sciences, technology, and languages
+- Live or on-demand learning anytime
+- Interactive tests and certified achievements
+- Personalized content based on your interests
+- Community and mentors to support your learning journey
+
+تطبيق تعليمي شامل للتعليم عبر الإنترنت، مصمم لتلبية احتياجات الطلاب في الجزائر وعشاق المعرفة من جميع الأعمار. سواء كنت ترغب في اكتساب مهارات جديدة، أو تعميق معرفتك الأكاديمية، أو استكشاف مجالات مثيرة للاهتمام، فإن منصتنا توفر أدوات وموارد تتكيف مع كل مسار تعليمي.
+
+مميزات التطبيق:
+- دورات متنوعة في العلوم، التكنولوجيا، واللغات
+- تعلم مباشر أو عند الطلب بأي وقت
+- اختبارات وشهادات معتمدة
+- تخصيص المحتوى وفق اهتماماتك
+- مجتمع ومرشدون لدعم رحلتك التعليمية
+
+
+
+<p>
+
+  <a href="https://play.google.com/store/apps/details?id=com.dcs.soluche" target="_blank"><img alt="Google Play" src="https://img.shields.io/badge/Get%20it%20on%20google%20play-blue.svg?style=for-the-badge&logo=google-play" /></a>
+  
+<hr>
+
+
+### Quick Cargoo
+The Quick Cargoo app connects shippers with transport companies to simplify and speed up the process of shipping goods safely and flexibly. The app aims to provide a seamless experience based on transparency, enabling users to manage their shipments effectively and in a personalized manner.
+
+App Features:
+- Easy selection of transport companies
+- Direct negotiation
+- Real-time shipment tracking
+- A variety of vehicle options
+- Scheduling shipments in advance
+- Service evaluation
+
+تطبيق Quick Cargoo هو تطبيق يربط بين المرسلين وشركات النقل لتسهيل وتسريع عملية شحن البضائع بأمان ومرونة. يهدف التطبيق إلى تقديم تجربة مريحة تعتمد على الشفافية، مما يمكّن المستخدمين من إدارة شحناتهم بشكل فعال ومخصص.
+
+مميزات التطبيق:
+- اختيار شركة النقل بسهولة
+- التفاوض المباشر
+- تتبع الشحنة في الوقت الفعلي
+- خيارات متنوعة للمركبات
+- جدولة الشحنات مسبقًا
+- تقييم الخدمة
+
+
+
+<p><a href="https://play.google.com/store/apps/details?id=com.dcsec.quickcargoo" target="_blank"><img alt="Google Play" src="https://img.shields.io/badge/Get%20it%20on%20google%20play-blue.svg?style=for-the-badge&logo=google-play" /></a> <a href="https://apps.apple.com/sa/app/quick-cargoo/id6737919571" target="_blank"><img alt="App Store" src="https://img.shields.io/badge/Get%20it%20on%20app%20store-black.svg?style=for-the-badge&logo=app-store&logoColor=white" /></a><p>
+
+<hr>
+
+
+### Quick Cargoo Driver
+
+Quick Cargoo Driver is an application specifically designed for drivers and transport companies to simplify the management of shipping and delivery operations using trucks and other cargo vehicles. The app aims to enhance work efficiency and ensure faster, safer, and more reliable deliveries.
+
+App Features:
+- Easy-to-use interface for drivers
+- Cargo management
+- Digital documentation and proof of delivery
+- Customer notifications
+- Reports and analytics
+
+تطبيق Quick Cargoo Driver هو تطبيق مصمم خصيصًا للسائقين وشركات النقل لتسهيل إدارة عمليات الشحن والتوصيل باستخدام الشاحنات، وغيرها من مركبات النقل. يهدف التطبيق إلى تحسين كفاءة العمل وضمان عمليات توصيل أسرع وأكثر أمانًا وموثوقية.
+
+مميزات التطبيق:
+- واجهة سهلة الاستخدام للسائقين
+- إدارة البضائع
+- الوثائق الإلكترونية وإثبات التسليم
+- إشعارات العملاء
+- تقارير وتحليلات
+
+
+<p><a href="https://play.google.com/store/apps/details?id=com.dcsec.quickcargoodriver" target="_blank"><img alt="Google Play" src="https://img.shields.io/badge/Get%20it%20on%20google%20play-blue.svg?style=for-the-badge&logo=google-play" /></a><p>
+
+<hr>
+
+
+
+### Focuscoin
+
+The Focuscoin application is a new addition to useful learning tools and modern skills through a combination of information from artificial intelligence. It turns your reading and learning into currencies that you can spend on cash, discount coupons. Earned focuscoins are spent on products, services and activities, offered by our partner brands in the online marketplace. Or you can if you want to exchange it with your friends and family.
+The more you learn, the richer you become. Learning is valuable!
+You will earn focuscoins whether you read the information you are interested in at any time.
+
+يعد تطبيق Focuscoin إضافة جديدة لأدوات التعلم المفيدة والمهارات الحديثة من خلال مجموعة من المعلومات من الذكاء الاصطناعي. فهو يحول قراءتك وتعلمك إلى عملات يمكنك إنفاقها نقدًا وكوبونات الخصم. يتم إنفاق عملات التركيز المكتسبة على المنتجات والخدمات والأنشطة التي تقدمها العلامات التجارية الشريكة لنا في السوق عبر الإنترنت. أو يمكنك ذلك إذا كنت ترغب في تبادلها مع أصدقائك وعائلتك.
+كلما تعلمت أكثر، أصبحت أكثر ثراءً. التعلم ذو قيمة!
+سوف تكسب عملات التركيز إذا قرأت المعلومات التي تهمك في أي وقت.
+
+<p><a href="https://play.google.com/store/apps/details?id=com.focuscoin.app" target="_blank"><img alt="Google Play" src="https://img.shields.io/badge/Get%20it%20on%20google%20play-blue.svg?style=for-the-badge&logo=google-play" /></a> <p>
+
+  
+<!---
+
+  
+<hr>
+
+
+### Smart Farmer | الفلاح الذكى
+Smart Farmer, an application by Fifth Generation Software Company, is an integrated service application that serves a large sector of agriculturalists. It identifies plant diseases using artificial intelligence and provides information about agricultural companies and prices for various inputs and outputs of the agricultural process, such as pesticides, seeds, fertilizers, selling crops, and communicates with agricultural consultants.
+
+الفلاح الذكي وهو تطبيق لشركه الجيل الخامس للبرمجيات وهو تطبيق خدمي متكامل يخدم قطاع كبير من الزراعيين يتعرف علي المرض النباتي باستخدام الذكاء الاصطناعي ويوفر معلومات عن الشركات الزراعيه واسعار لمختلف المدخلات والمخرجات العمليه الزراعيه من مبيدات, تقاوي, اسمده, بيع المحاصيل ويتواصل مع استشاريين زراعيين.
+
+<p>
+
+  <a href="https://play.google.com/store/apps/details?id=com.fifthgeneration" target="_blank"><img alt="Google Play" src="https://img.shields.io/badge/Get%20it%20on%20google%20play-blue.svg?style=for-the-badge&logo=google-play" /></a>
+  
 <hr>
 
 
@@ -104,37 +252,29 @@ The application provides the service of delivering orders in a convenient and ea
 <hr>
 
 
-### Hope Athletes
-Hope is a groundbreaking sports app designed to elevate athletes' journeys. Enjoy exclusive discounts of up to 35% on top sports brands, participate in giveaways, and stand a chance to win full sponsorships. Our app introduces a pioneering athlete insurance program, a secure space to track achievements, and access to a thriving sports community. Empower your athletic endeavors with Hope, the first-of-its-kind platform committed to supporting athletes at every step.
+### BHC
 
-تطبيق Hope هو تطبيق رياضي رائد مصمم للارتقاء برحلات الرياضيين. استمتع بخصومات حصرية تصل إلى 35% على أفضل العلامات التجارية الرياضية، وشارك في الهدايا، واحصل على فرصة للفوز بالرعايات الكاملة. يقدم تطبيقنا برنامج تأمين رياضي رائد، ومساحة آمنة لتتبع الإنجازات، والوصول إلى مجتمع رياضي مزدهر. قم بتمكين مساعيك الرياضية مع Hope، المنصة الأولى من نوعها الملتزمة بدعم الرياضيين في كل خطوة.
-<p>
- <a href="https://play.google.com/store/apps/details?id=com.getcard.hope" target="_blank"><img alt="Google Play" src="https://img.shields.io/badge/Get%20it%20on%20google%20play-blue.svg?style=for-the-badge&logo=google-play" /></a> <a href="https://apps.apple.com/tr/app/hope-athletes/id6476447031" target="_blank"><img alt="App Store" src="https://img.shields.io/badge/Get%20it%20on%20app%20store-black.svg?style=for-the-badge&logo=app-store&logoColor=white" /></a><p>
+The BHC application is one of the most important and leading applications in the field of providing delivery services in the Kingdom of Saudi Arabia. The application relies on a wide network of delivery agents in order to cover customer requests in the city of Jeddah and seeks to cover all parts of the Kingdom in the fastest time.
+The application provides the service of delivering orders in a convenient and easy way by linking users with delivery representatives, communicating with them, and following up on their orders in an easy and smooth manner. The application also provides ordering services from restaurants and many other features.
+
+تطبيق BHC يعد من أهم التطبيقات الرائدة في مجال تقديم خدمات التوصيل في المملكة العربية السعودية. يعتمد التطبيق على شبكة واسعة من مناديب التوصيل بهدف تغطية طلبات العملاء في مدينة جدة ويسعى لتغطية جميع انحاء المملكة في أسرع وقت.
+يقدم التطبيق خدمة توصيل الطلبات بطريقة ميسرة وسهلة من خلال ربط المستخدمين بمندوبي التوصيل والتواصل معهم ومتابعة طلباتهم بشكل ميسر وسلس. كما ويقدم التطبيق خدمة الطلبات من المطاعم والعديد من المميزات الأخرى.
+
+<p><a href="https://play.google.com/store/apps/details?id=com.bhc.app" target="_blank"><img alt="Google Play" src="https://img.shields.io/badge/Get%20it%20on%20google%20play-blue.svg?style=for-the-badge&logo=google-play" /></a> <a href="https://apps.apple.com/eg/app/bhc/id6479562742" target="_blank"><img alt="App Store" src="https://img.shields.io/badge/Get%20it%20on%20app%20store-black.svg?style=for-the-badge&logo=app-store&logoColor=white" /></a><p>
 
 <hr>
 
-### Smart Farmer | الفلاح الذكى
-Smart Farmer, an application by Fifth Generation Software Company, is an integrated service application that serves a large sector of agriculturalists. It identifies plant diseases using artificial intelligence and provides information about agricultural companies and prices for various inputs and outputs of the agricultural process, such as pesticides, seeds, fertilizers, selling crops, and communicates with agricultural consultants.
+### BHC Delivery
 
-الفلاح الذكي وهو تطبيق لشركه الجيل الخامس للبرمجيات وهو تطبيق خدمي متكامل يخدم قطاع كبير من الزراعيين يتعرف علي المرض النباتي باستخدام الذكاء الاصطناعي ويوفر معلومات عن الشركات الزراعيه واسعار لمختلف المدخلات والمخرجات العمليه الزراعيه من مبيدات, تقاوي, اسمده, بيع المحاصيل ويتواصل مع استشاريين زراعيين.
+The BHC application is one of the most important and leading applications in the field of providing delivery services in the Kingdom of Saudi Arabia. The application relies on a wide network of delivery agents in order to cover customer requests in the city of Jeddah and seeks to cover all parts of the Kingdom in the fastest time.
+The application provides the service of delivering orders in a convenient and easy way by linking users with delivery representatives, communicating with them, and following up on their orders in an easy and smooth manner. The application also provides ordering services from restaurants and many other features.
 
-<p>
+تطبيق BHC يعد من أهم التطبيقات الرائدة في مجال تقديم خدمات التوصيل في المملكة العربية السعودية. يعتمد التطبيق على شبكة واسعة من مناديب التوصيل بهدف تغطية طلبات العملاء في مدينة جدة ويسعى لتغطية جميع انحاء المملكة في أسرع وقت.
+يقدم التطبيق خدمة توصيل الطلبات بطريقة ميسرة وسهلة من خلال ربط المستخدمين بمندوبي التوصيل والتواصل معهم ومتابعة طلباتهم بشكل ميسر وسلس. كما ويقدم التطبيق خدمة الطلبات من المطاعم والعديد من المميزات الأخرى.
 
-  <a href="https://play.google.com/store/apps/details?id=com.fifthgeneration" target="_blank"><img alt="Google Play" src="https://img.shields.io/badge/Get%20it%20on%20google%20play-blue.svg?style=for-the-badge&logo=google-play" /></a>
-  
+<p><a href="https://play.google.com/store/apps/details?id=com.bhc.delivery" target="_blank"><img alt="Google Play" src="https://img.shields.io/badge/Get%20it%20on%20google%20play-blue.svg?style=for-the-badge&logo=google-play" /></a> <a href="https://apps.apple.com/eg/app/bhc-delivery/id6479564398" target="_blank"><img alt="App Store" src="https://img.shields.io/badge/Get%20it%20on%20app%20store-black.svg?style=for-the-badge&logo=app-store&logoColor=white" /></a><p>
+
 <hr>
+-->
 
-
-
-### Focuscoin
-
-The Focuscoin application is a new addition to useful learning tools and modern skills through a combination of information from artificial intelligence. It turns your reading and learning into currencies that you can spend on cash, discount coupons. Earned focuscoins are spent on products, services and activities, offered by our partner brands in the online marketplace. Or you can if you want to exchange it with your friends and family.
-The more you learn, the richer you become. Learning is valuable!
-You will earn focuscoins whether you read the information you are interested in at any time.
-
-يعد تطبيق Focuscoin إضافة جديدة لأدوات التعلم المفيدة والمهارات الحديثة من خلال مجموعة من المعلومات من الذكاء الاصطناعي. فهو يحول قراءتك وتعلمك إلى عملات يمكنك إنفاقها نقدًا وكوبونات الخصم. يتم إنفاق عملات التركيز المكتسبة على المنتجات والخدمات والأنشطة التي تقدمها العلامات التجارية الشريكة لنا في السوق عبر الإنترنت. أو يمكنك ذلك إذا كنت ترغب في تبادلها مع أصدقائك وعائلتك.
-كلما تعلمت أكثر، أصبحت أكثر ثراءً. التعلم ذو قيمة!
-سوف تكسب عملات التركيز إذا قرأت المعلومات التي تهمك في أي وقت.
-
-<p><a href="https://play.google.com/store/apps/details?id=com.focuscoin.app" target="_blank"><img alt="Google Play" src="https://img.shields.io/badge/Get%20it%20on%20google%20play-blue.svg?style=for-the-badge&logo=google-play" /></a> <p>
 
