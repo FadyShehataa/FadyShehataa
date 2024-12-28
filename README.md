@@ -110,6 +110,21 @@ Hope is a groundbreaking sports app designed to elevate athletes' journeys. Enjo
 <hr>
 
 
+### Focuscoin
+
+The Focuscoin application is a new addition to useful learning tools and modern skills through a combination of information from artificial intelligence. It turns your reading and learning into currencies that you can spend on cash, discount coupons. Earned focuscoins are spent on products, services and activities, offered by our partner brands in the online marketplace. Or you can if you want to exchange it with your friends and family.
+The more you learn, the richer you become. Learning is valuable!
+You will earn focuscoins whether you read the information you are interested in at any time.
+
+يعد تطبيق Focuscoin إضافة جديدة لأدوات التعلم المفيدة والمهارات الحديثة من خلال مجموعة من المعلومات من الذكاء الاصطناعي. فهو يحول قراءتك وتعلمك إلى عملات يمكنك إنفاقها نقدًا وكوبونات الخصم. يتم إنفاق عملات التركيز المكتسبة على المنتجات والخدمات والأنشطة التي تقدمها العلامات التجارية الشريكة لنا في السوق عبر الإنترنت. أو يمكنك ذلك إذا كنت ترغب في تبادلها مع أصدقائك وعائلتك.
+كلما تعلمت أكثر، أصبحت أكثر ثراءً. التعلم ذو قيمة!
+سوف تكسب عملات التركيز إذا قرأت المعلومات التي تهمك في أي وقت.
+
+<p><a href="https://play.google.com/store/apps/details?id=com.focuscoin.app" target="_blank"><img alt="Google Play" src="https://img.shields.io/badge/Get%20it%20on%20google%20play-blue.svg?style=for-the-badge&logo=google-play" /></a> <p>
+
+
+<hr>
+
 ### Soluche online
 A comprehensive online education application designed to meet the needs of students in Algeria and knowledge enthusiasts of all ages. Whether you want to acquire new skills, deepen your academic knowledge, or explore fascinating fields, our platform provides tools and resources tailored to every learning path.
 
@@ -191,25 +206,8 @@ App Features:
 
 <hr>
 
-
-
-### Focuscoin
-
-The Focuscoin application is a new addition to useful learning tools and modern skills through a combination of information from artificial intelligence. It turns your reading and learning into currencies that you can spend on cash, discount coupons. Earned focuscoins are spent on products, services and activities, offered by our partner brands in the online marketplace. Or you can if you want to exchange it with your friends and family.
-The more you learn, the richer you become. Learning is valuable!
-You will earn focuscoins whether you read the information you are interested in at any time.
-
-يعد تطبيق Focuscoin إضافة جديدة لأدوات التعلم المفيدة والمهارات الحديثة من خلال مجموعة من المعلومات من الذكاء الاصطناعي. فهو يحول قراءتك وتعلمك إلى عملات يمكنك إنفاقها نقدًا وكوبونات الخصم. يتم إنفاق عملات التركيز المكتسبة على المنتجات والخدمات والأنشطة التي تقدمها العلامات التجارية الشريكة لنا في السوق عبر الإنترنت. أو يمكنك ذلك إذا كنت ترغب في تبادلها مع أصدقائك وعائلتك.
-كلما تعلمت أكثر، أصبحت أكثر ثراءً. التعلم ذو قيمة!
-سوف تكسب عملات التركيز إذا قرأت المعلومات التي تهمك في أي وقت.
-
-<p><a href="https://play.google.com/store/apps/details?id=com.focuscoin.app" target="_blank"><img alt="Google Play" src="https://img.shields.io/badge/Get%20it%20on%20google%20play-blue.svg?style=for-the-badge&logo=google-play" /></a> <p>
-
   
 <!---
-
-  
-<hr>
 
 
 ### Smart Farmer | الفلاح الذكى
