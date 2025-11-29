@@ -1,242 +1,661 @@
 <!DOCTYPE html>
-<html lang="ar">
+<html lang="en" dir="rtl">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Fady Shehata - Flutter Projects</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Fady Shehata — Portfolio</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+
   <style>
-    body {
-      font-family: Arial, sans-serif;
-      background: #f5f5f5;
-      margin: 0;
-      padding: 0;
+    :root{
+      --bg:#0f1720;
+      --card:#0f172b;
+      --muted:#9aa4b2;
+      --accent:#3ddc84;
+      --glass: rgba(255,255,255,0.04);
+      --glass-2: rgba(255,255,255,0.02);
+      --text:#e6eef6;
+      --shadow: 0 10px 30px rgba(2,6,23,0.6);
     }
-    header {
-      background: #151E2E;
-      color: white;
-      padding: 1rem;
-      text-align: center;
+    [data-theme="light"]{
+      --bg:#f5f7fb;
+      --card:#ffffff;
+      --muted:#556070;
+      --accent:#0b76ff;
+      --glass: rgba(2,6,23,0.03);
+      --glass-2: rgba(2,6,23,0.01);
+      --text:#0b1720;
+      --shadow: 0 8px 20px rgba(16,24,40,0.06);
     }
-    h1 { margin: 0; }
-    p.subtitle { margin: 0.5rem 0 0; font-size: 1rem; color: #ddd; }
-    .container {
-      max-width: 1000px;
-      margin: 2rem auto;
-      padding: 0 1rem;
+
+    * { box-sizing: border-box; }
+    html,body { height:100%; margin:0; font-family: 'Inter', system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; background:linear-gradient(180deg,var(--bg), #071120 120%); color:var(--text); -webkit-font-smoothing:antialiased; -moz-osx-font-smoothing:grayscale; }
+
+    .page {
+      max-width:1100px;
+      margin:30px auto;
+      padding:24px;
     }
-    .project-card {
-      background: white;
-      border-radius: 10px;
-      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-      margin-bottom: 2rem;
-      padding: 1.5rem;
+
+    header.top {
+      display:flex;
+      gap:20px;
+      align-items:center;
+      background:linear-gradient(90deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+      padding:18px;
+      border-radius:12px;
+      box-shadow:var(--shadow);
+      backdrop-filter: blur(6px);
     }
-    .project-card h2 {
-      margin-top: 0;
-      color: #151E2E;
+
+    .avatar {
+      width:120px;
+      height:120px;
+      border-radius:14px;
+      overflow:hidden;
+      flex-shrink:0;
+      border:2px solid rgba(255,255,255,0.06);
+      background:var(--glass);
     }
-    .badges a {
-      text-decoration: none;
-      margin-right: 0.5rem;
+    .avatar img { width:100%; height:100%; object-fit:cover; display:block; }
+
+    .hero {
+      flex:1;
     }
-    img.badge {
-      height: 30px;
-      vertical-align: middle;
+    .hero h1 { margin:0; font-size:22px; letter-spacing:0.2px; }
+    .hero p.lead { margin:8px 0 0; color:var(--muted); line-height:1.45; }
+
+    .meta {
+      display:flex;
+      gap:10px;
+      align-items:center;
+      margin-top:12px;
     }
-    .description {
-      margin: 1rem 0;
-      line-height: 1.5;
+    .btn {
+      display:inline-flex;
+      gap:8px;
+      align-items:center;
+      padding:8px 12px;
+      border-radius:10px;
+      text-decoration:none;
+      font-weight:600;
+      background:linear-gradient(90deg,var(--accent), rgba(255,255,255,0.06));
+      color: #fff;
+      box-shadow:0 6px 18px rgba(11,14,20,0.35);
     }
+    .btn.ghost {
+      background:transparent;
+      border:1px solid rgba(255,255,255,0.06);
+      color:var(--text);
+      box-shadow:none;
+      font-weight:600;
+    }
+
+    .controls { display:flex; gap:8px; align-items:center; }
+
+    /* layout */
+    .grid {
+      display:grid;
+      grid-template-columns: 1fr 360px;
+      gap:20px;
+      margin-top:24px;
+      align-items:start;
+    }
+
+    /* main content */
+    main {
+      min-width:0;
+    }
+
+    .section {
+      margin-bottom:20px;
+    }
+    .section h2 {
+      margin:0 0 12px 0;
+      color:var(--text);
+      font-size:18px;
+    }
+
+    /* Case study card */
+    .card {
+      background: linear-gradient(180deg,var(--card), rgba(0,0,0,0.01));
+      border-radius:12px;
+      padding:18px;
+      box-shadow:var(--shadow);
+      margin-bottom:18px;
+      transition: transform .36s cubic-bezier(.16,.84,.36,1), box-shadow .36s;
+      border:1px solid var(--glass-2);
+    }
+    .card:hover { transform: translateY(-6px); box-shadow: 0 18px 48px rgba(2,6,23,0.6); }
+
+    .card .title {
+      display:flex;
+      justify-content:space-between;
+      gap:12px;
+      align-items:flex-start;
+    }
+    .card h3 { margin:0; font-size:16px; color:var(--text); }
+    .card .sub { color:var(--muted); font-size:13px; margin-top:6px; }
+
+    .card .row { display:flex; gap:12px; margin-top:12px; flex-wrap:wrap; align-items:center; }
+    .badge {
+      background:var(--glass);
+      padding:8px 10px;
+      border-radius:8px;
+      font-size:13px;
+      color:var(--text);
+      border:1px solid rgba(255,255,255,0.03);
+    }
+    .desc { margin-top:12px; color:var(--muted); line-height:1.6; white-space:pre-line; }
+
+    .links a { margin-right:8px; display:inline-block; }
+
+    /* right column */
+    aside {
+      position:sticky;
+      top:30px;
+      align-self:start;
+    }
+    .card.small { padding:14px; }
+    .skills { display:flex; flex-direction:column; gap:8px; }
+    .skill {
+      display:flex;
+      justify-content:space-between;
+      gap:10px;
+      align-items:center;
+      padding:8px;
+      background:var(--glass-2);
+      border-radius:8px;
+      border:1px solid rgba(255,255,255,0.02);
+    }
+    .skill .meter { width:100%; height:8px; background:rgba(255,255,255,0.03); border-radius:6px; margin-left:10px; overflow:hidden; }
+    .skill .meter > span { display:block; height:100%; background:linear-gradient(90deg,var(--accent), rgba(255,255,255,0.12)); border-radius:6px; }
+
+    .contact a { display:block; color:var(--text); text-decoration:none; margin-top:6px; color:var(--muted); font-weight:600; }
+
+    footer.pagefoot { margin-top:28px; text-align:center; color:var(--muted); font-size:13px; padding:14px; }
+
+    /* responsive */
+    @media (max-width:980px){
+      .grid{ grid-template-columns: 1fr; }
+      aside { position:static; }
+      .avatar { width:96px; height:96px; }
+    }
+
+    /* small animations */
+    .fade-up { opacity:0; transform:translateY(8px); transition: all .48s ease; }
+    .fade-up.visible { opacity:1; transform:translateY(0); }
   </style>
 </head>
 <body>
 
-<header>
-  <h1>Fady Shehata - Flutter Projects</h1>
-  <p class="subtitle">Projects I developed for the GCC market</p>
-</header>
+  <div class="page" data-theme="dark">
 
-<div class="container">
+    <!-- header / hero -->
+    <header class="top">
+      <div class="avatar">
+        <!-- استبدل هذا الـ src برابط صورتك (مثلاً /assets/photo.jpg أو رابط خارجي) -->
+        <img id="avatarImg" src="https://via.placeholder.com/400x400.png?text=Fady+Shehata" alt="Fady Shehata">
+      </div>
 
-  <!-- Talbinah -->
-  <div class="project-card">
-    <h2>Talbinah | تلبينة</h2>
-    <p class="description">
-      We provide mental health support, building a bridge of hope and optimism for a better tomorrow.  
-      نحــــــــن هنـــــا لدعمــــك في رحلتك نحــو الصـحة النفسيـة والسعـــادة.
-    </p>
-    <div class="badges">
-      <a href="https://play.google.com/store/apps/details?id=com.talbinah.talbinah" target="_blank">
-        <img class="badge" src="https://img.shields.io/badge/Get%20it%20on%20google%20play-blue.svg?style=for-the-badge&logo=google-play">
-      </a>
-      <a href="https://apps.apple.com/eg/app/%D8%AA%D9%84%D8%A8%D9%8A%D9%86%D8%A9-talbinah/id6464413895" target="_blank">
-        <img class="badge" src="https://img.shields.io/badge/Get%20it%20on%20app%20store-black.svg?style=for-the-badge&logo=app-store&logoColor=white">
-      </a>
+      <div class="hero">
+        <h1>فادي شحاتة — Fady Shehata</h1>
+        <p class="lead">Flutter Developer — Mobile apps · Clean code · State management · API integration</p>
+
+        <div class="meta">
+          <div class="controls">
+            <a class="btn" href="https://github.com/FadyShehataa/FadyShehataa" target="_blank">View GitHub</a>
+            <a class="btn ghost" href="https://www.linkedin.com/in/fady-shehata-51aa5828a/" target="_blank">LinkedIn</a>
+          </div>
+
+          <div style="margin-left:auto; display:flex; gap:8px; align-items:center;">
+            <label style="color:var(--muted); font-size:13px; margin-right:8px;">Theme</label>
+            <button id="toggleTheme" class="btn ghost" title="Toggle theme">Dark / Light</button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- layout grid -->
+    <div class="grid">
+
+      <!-- main: projects -->
+      <main>
+
+        <section class="section">
+          <h2>Projects / المشاريع</h2>
+
+          <!-- Project 1: Talbinah -->
+          <article class="card fade-up">
+            <div class="title">
+              <div>
+                <h3>Talbinah — تلبينة</h3>
+                <div class="sub">Mental health support platform — منصة دعم للصحة النفسية</div>
+              </div>
+              <div class="badge">Role: Flutter Developer</div>
+            </div>
+
+            <div class="row">
+              <div class="links">
+                <a href="https://play.google.com/store/apps/details?id=com.talbinah.talbinah" target="_blank">
+                  <img style="height:34px" src="https://img.shields.io/badge/Google%20Play-Talbinah-blue?logo=google-play" alt="Play">
+                </a>
+                <a href="https://apps.apple.com/eg/app/%D8%AA%D9%84%D8%A8%D9%8A%D9%86%D8%A9-talbinah/id6464413895" target="_blank">
+                  <img style="height:34px" src="https://img.shields.io/badge/App%20Store-Talbinah-black?logo=app-store&logoColor=white" alt="AppStore">
+                </a>
+              </div>
+            </div>
+
+            <div class="desc">
+              We provide mental health support, building a bridge of hope and optimism for a better tomorrow. Let us help you on your way to healing and wellbeing.
+              \n\nنحــــــــن هنـــــا لدعمــــك في رحلتك نحــو الصـحة النفسيـة والسعـــادة. دعنا نساعدك في بناء جسر من الأمل والتفاؤل نحو غدٍ أفضل، حيث يكون السعادة والسلام النفسي هما السمتان السائدتان في حياتك.
+            </div>
+
+            <div class="row" style="margin-top:14px;">
+              <div class="badge">Features: Consultations, Booking, Payments, History, Notifications</div>
+              <div class="badge">Tech: Flutter · Dart · State management · HTTP</div>
+            </div>
+          </article>
+
+          <!-- Project 2: Talbinah Doctor -->
+          <article class="card fade-up">
+            <div class="title">
+              <div>
+                <h3>Talbinah Doctor — تلبينة دكتور</h3>
+                <div class="sub">Doctor app for practitioners — تطبيق مخصص للأطباء والمعالجين</div>
+              </div>
+              <div class="badge">Role: Flutter Developer</div>
+            </div>
+
+            <div class="row">
+              <div class="links">
+                <a href="https://play.google.com/store/apps/details?id=com.talbinah.doctor" target="_blank">
+                  <img style="height:34px" src="https://img.shields.io/badge/Google%20Play-Talbinah%20Doctor-blue?logo=google-play" alt="Play">
+                </a>
+                <a href="https://apps.apple.com/us/app/talbinah-doctor/id6465690953" target="_blank">
+                  <img style="height:34px" src="https://img.shields.io/badge/App%20Store-Talbinah%20Doctor-black?logo=app-store&logoColor=white" alt="AppStore">
+                </a>
+              </div>
+            </div>
+
+            <div class="desc">
+              Talbinah Doctor is aimed at psychiatrists, therapists and social workers to manage consultations and patients securely and efficiently.
+              \n\nأهلا بكم في تلبينة، مكانكم الأمثل للدعم والعناية بالصحة النفسية! تطبيقنا مصمم خصيصًا للأطباء النفسيين، المعالجين النفسين، العاملين في المجال الاجتماعي والأسري.
+            </div>
+
+            <div class="row" style="margin-top:14px;">
+              <div class="badge">Features: Appointments, Video/Audio/Chat, Medical records</div>
+              <div class="badge">Tech: Flutter · Dart · Cubit · WebRTC</div>
+            </div>
+          </article>
+
+          <!-- Project 3: Torido -->
+          <article class="card fade-up">
+            <div class="title">
+              <div>
+                <h3>Torido — توريدو</h3>
+                <div class="sub">Light truck transport booking platform — تطبيق لخدمات النقل</div>
+              </div>
+              <div class="badge">Role: Flutter Developer</div>
+            </div>
+
+            <div class="row">
+              <div class="links">
+                <a href="https://play.google.com/store/apps/details?id=com.torido.app" target="_blank">
+                  <img style="height:34px" src="https://img.shields.io/badge/Google%20Play-Torido-blue?logo=google-play" alt="Play">
+                </a>
+                <a href="https://apps.apple.com/ug/app/torido-%D8%AA%D9%88%D8%B1%D9%8A%D8%AF%D9%88/id1554338202" target="_blank">
+                  <img style="height:34px" src="https://img.shields.io/badge/App%20Store-Torido-black?logo=app-store&logoColor=white" alt="AppStore">
+                </a>
+              </div>
+            </div>
+
+            <div class="desc">
+              It is an application that serves a large segment of users of light transport trucks of all kinds and provides customers and service providers with multiple quotes and the best transport prices.
+              \n\nهو عبارة عن تطبيق يخدم شريحة كبيرة من مستخدمي شاحنات النقل الخفيف بجميع انواعها (دينا) ويقدم الخدمة للعميل ومقدمي الخدمة عن طريق تسهيل الحصول علي عدة تسعيرات وافضل سعر نقل.
+            </div>
+
+            <div class="row" style="margin-top:14px;">
+              <div class="badge">Features: Multi-quote, Offers, Order flow, Wallet</div>
+              <div class="badge">Tech: Flutter · Dart · Dio · State management</div>
+            </div>
+          </article>
+
+          <!-- Project 4: Torido Naqel Driver -->
+          <article class="card fade-up">
+            <div class="title">
+              <div>
+                <h3>Torido Naqel — توريدو ناقل (Driver)</h3>
+                <div class="sub">Driver-side app — تطبيق السائقين لإدارة الطلبات</div>
+              </div>
+              <div class="badge">Role: Flutter Developer</div>
+            </div>
+
+            <div class="row">
+              <div class="links">
+                <a href="https://play.google.com/store/apps/details?id=com.torido.driver" target="_blank">
+                  <img style="height:34px" src="https://img.shields.io/badge/Google%20Play-Torido%20Driver-blue?logo=google-play" alt="Play">
+                </a>
+                <a href="https://apps.apple.com/ug/app/torido-naqel-%D8%AA%D9%88%D8%B1%D9%8A%D8%AF%D9%88-%D9%86%D8%A7%D9%82%D9%84/id1554352273" target="_blank">
+                  <img style="height:34px" src="https://img.shields.io/badge/App%20Store-Torido%20Driver-black?logo=app-store&logoColor=white" alt="AppStore">
+                </a>
+              </div>
+            </div>
+
+            <div class="desc">
+              Driver app that helps drivers receive offers, manage trips, update order statuses and track earnings.
+              \n\nهو عبارة عن تطبيق لخدمة السائقين ومقدمي الخدمة لإدارة الطلبات، تقديم العروض، وإتمام عمليات التسليم بسهولة.
+            </div>
+
+            <div class="row" style="margin-top:14px;">
+              <div class="badge">Features: Order management, Offers, Route updates</div>
+              <div class="badge">Tech: Flutter · Google Maps · HTTP</div>
+            </div>
+          </article>
+
+          <!-- Project 5: REDF -->
+          <article class="card fade-up">
+            <div class="title">
+              <div>
+                <h3>REDF</h3>
+                <div class="sub">Real Estate Development Fund — internal legal management app</div>
+              </div>
+              <div class="badge">Role: Flutter Developer</div>
+            </div>
+
+            <div class="row">
+              <div class="links">
+                <a href="https://play.google.com/store/apps/details?id=com.wakeb.redf" target="_blank">
+                  <img style="height:34px" src="https://img.shields.io/badge/Google%20Play-REDF-blue?logo=google-play" alt="Play">
+                </a>
+              </div>
+            </div>
+
+            <div class="desc">
+              An application for internal use in the Real Estate Development Fund — includes Cases service, Legal consulting & document management, Task management and General settings.
+              \n\nتطبيق تابع لصندوق التنمية العقارية بالسعودية. يتضمن خدمات داخلية: خدمة القضايا، الاستشارات القانونية وإدارة الوثائق، إدارة المهام.
+            </div>
+
+            <div class="row" style="margin-top:14px;">
+              <div class="badge">Features: Case management, Documents, Tasks</div>
+              <div class="badge">Tech: Flutter · Dart · Internal services</div>
+            </div>
+          </article>
+
+          <!-- Project 6: GITA -->
+          <article class="card fade-up">
+            <div class="title">
+              <div>
+                <h3>GITA — جيتا</h3>
+                <div class="sub">Flights, Hotels & Travel booking app</div>
+              </div>
+              <div class="badge">Role: Flutter Developer</div>
+            </div>
+
+            <div class="row">
+              <div class="links">
+                <a href="https://play.google.com/store/apps/details?id=com.eficta.flights" target="_blank">
+                  <img style="height:34px" src="https://img.shields.io/badge/Google%20Play-GITA-blue?logo=google-play" alt="Play">
+                </a>
+                <a href="https://apps.apple.com/us/app/gita-flight-hotels-and-more/id6741498793" target="_blank">
+                  <img style="height:34px" src="https://img.shields.io/badge/App%20Store-GITA-black?logo=app-store&logoColor=white" alt="AppStore">
+                </a>
+              </div>
+            </div>
+
+            <div class="desc">
+              A travel platform that supports booking flights, hotels, visa issuance and more — smart search and loyalty program included.
+              \n\nتطبيق سفر متكامل للحجز للطيران والفنادق والبرامج السياحية، مع خيارات دفع وبرنامج ولاء.
+            </div>
+
+            <div class="row" style="margin-top:14px;">
+              <div class="badge">Features: Flight & hotel booking, Loyalty, Payments</div>
+              <div class="badge">Tech: Flutter · APIs · Payments</div>
+            </div>
+          </article>
+
+          <!-- Project 7: Mostaqer -->
+          <article class="card fade-up">
+            <div class="title">
+              <div>
+                <h3>Mostaqer — مستقر</h3>
+                <div class="sub">Mental health platform — منصة للصحة النفسية</div>
+              </div>
+              <div class="badge">Role: Flutter Developer</div>
+            </div>
+
+            <div class="row">
+              <div class="links">
+                <a href="https://play.google.com/store/apps/details?id=com.mostaqer.app" target="_blank">
+                  <img style="height:34px" src="https://img.shields.io/badge/Google%20Play-Mostaqer-blue?logo=google-play" alt="Play">
+                </a>
+                <a href="https://apps.apple.com/sa/app/mostaqer/id6744868537" target="_blank">
+                  <img style="height:34px" src="https://img.shields.io/badge/App%20Store-Mostaqer-black?logo=app-store&logoColor=white" alt="AppStore">
+                </a>
+              </div>
+            </div>
+
+            <div class="desc">
+              We provide psychological and behavioral support services through a platform connecting users with specialists.
+              \n\nنحــــــــن هنـــــا لدعمــــك في رحلتك نحو الصحة النفسية والسعادة — منصة تربط المستخدمين بالخبراء.
+            </div>
+
+            <div class="row" style="margin-top:14px;">
+              <div class="badge">Features: Sessions, Booking, Resources</div>
+              <div class="badge">Tech: Flutter · Dart</div>
+            </div>
+          </article>
+
+          <!-- Project 8: Mostaqer Doctor -->
+          <article class="card fade-up">
+            <div class="title">
+              <div>
+                <h3>Mostaqer Doctor — مستقر دكتور</h3>
+                <div class="sub">Doctor-side platform for practitioners</div>
+              </div>
+              <div class="badge">Role: Flutter Developer</div>
+            </div>
+
+            <div class="row">
+              <div class="links">
+                <a href="https://play.google.com/store/apps/details?id=com.mostaqer.doctor" target="_blank">
+                  <img style="height:34px" src="https://img.shields.io/badge/Google%20Play-Mostaqer%20Doctor-blue?logo=google-play" alt="Play">
+                </a>
+                <a href="https://apps.apple.com/sa/app/mostaqer-doctor/id6744868951" target="_blank">
+                  <img style="height:34px" src="https://img.shields.io/badge/App%20Store-Mostaqer%20Doctor-black?logo=app-store&logoColor=white" alt="AppStore">
+                </a>
+              </div>
+            </div>
+
+            <div class="desc">
+              A doctor-focused app to handle consultations, schedules and patient history.
+              \n\nتطبيق مخصص للأطباء لإدارة المواعيد، السجلات والتواصل مع المرضى.
+            </div>
+
+            <div class="row" style="margin-top:14px;">
+              <div class="badge">Features: Scheduling, Medical notes, Secure chat</div>
+              <div class="badge">Tech: Flutter · Dart · Cubit</div>
+            </div>
+          </article>
+
+          <!-- Project 9: Soluche online -->
+          <article class="card fade-up">
+            <div class="title">
+              <div>
+                <h3>Soluche Online</h3>
+                <div class="sub">E-learning platform for Algeria — منصة تعليمية</div>
+              </div>
+              <div class="badge">Role: Flutter Developer</div>
+            </div>
+
+            <div class="row">
+              <div class="links">
+                <a href="https://play.google.com/store/apps/details?id=com.dcs.soluche" target="_blank">
+                  <img style="height:34px" src="https://img.shields.io/badge/Google%20Play-Soluche-blue?logo=google-play" alt="Play">
+                </a>
+              </div>
+            </div>
+
+            <div class="desc">
+              Comprehensive online education app with courses, live sessions, tests and certificates.
+              \n\nتطبيق تعليمي شامل للتعليم عبر الإنترنت مع دورات، اختبارات وجلسات مباشرة.
+            </div>
+
+            <div class="row" style="margin-top:14px;">
+              <div class="badge">Features: Courses, Live/On-demand, Tests</div>
+              <div class="badge">Tech: Flutter · Video streaming</div>
+            </div>
+          </article>
+
+          <!-- Project 10: Quick Cargoo -->
+          <article class="card fade-up">
+            <div class="title">
+              <div>
+                <h3>Quick Cargoo</h3>
+                <div class="sub">Shipper ↔ Transport companies marketplace</div>
+              </div>
+              <div class="badge">Role: Flutter Developer</div>
+            </div>
+
+            <div class="row">
+              <div class="links">
+                <a href="https://play.google.com/store/apps/details?id=com.dcsec.quickcargoo" target="_blank">
+                  <img style="height:34px" src="https://img.shields.io/badge/Google%20Play-Quick%20Cargoo-blue?logo=google-play" alt="Play">
+                </a>
+                <a href="https://apps.apple.com/sa/app/quick-cargoo/id6737919571" target="_blank">
+                  <img style="height:34px" src="https://img.shields.io/badge/App%20Store-Quick%20Cargoo-black?logo=app-store&logoColor=white" alt="AppStore">
+                </a>
+              </div>
+            </div>
+
+            <div class="desc">
+              The Quick Cargoo app connects shippers with transport companies to simplify and speed up shipping operations.
+              \n\nتطبيق يربط بين المرسلين وشركات النقل لتسهيل عمليات الشحن وتتبعها.
+            </div>
+
+            <div class="row" style="margin-top:14px;">
+              <div class="badge">Features: Tracking, Negotiation, Scheduling</div>
+              <div class="badge">Tech: Flutter · Realtime updates</div>
+            </div>
+          </article>
+
+          <!-- Project 11: Quick Cargoo Driver -->
+          <article class="card fade-up">
+            <div class="title">
+              <div>
+                <h3>Quick Cargoo Driver</h3>
+                <div class="sub">Driver app — manage shipments & proof of delivery</div>
+              </div>
+              <div class="badge">Role: Flutter Developer</div>
+            </div>
+
+            <div class="row">
+              <div class="links">
+                <a href="https://play.google.com/store/apps/details?id=com.dcsec.quickcargoodriver" target="_blank">
+                  <img style="height:34px" src="https://img.shields.io/badge/Google%20Play-QC%20Driver-blue?logo=google-play" alt="Play">
+                </a>
+              </div>
+            </div>
+
+            <div class="desc">
+              Driver-focused app to manage shipments, delivery proof and analytics.
+              \n\nتطبيق يساعد السائقين في إدارة الشحنات، إثبات التسليم والتحليلات.
+            </div>
+
+            <div class="row" style="margin-top:14px;">
+              <div class="badge">Features: Proof of delivery, Reporting</div>
+              <div class="badge">Tech: Flutter · Local storage</div>
+            </div>
+          </article>
+
+        </section>
+
+      </main>
+
+      <!-- aside: skills + contact -->
+      <aside>
+        <div class="card small">
+          <h4 style="margin:0 0 8px 0;">About / نبذة</h4>
+          <div style="color:var(--muted); font-size:14px;">
+            I'm Fady Shehata, a Flutter developer focused on building clean, maintainable mobile applications.  
+            \n\nأنا فادي شحاتة، مطور Flutter مهتم بكتابة كود نظيف وبناء تطبيقات موبايل قابلة للتوسع.
+          </div>
+        </div>
+
+        <div class="card small">
+          <h4 style="margin:0 0 8px 0;">Skills / المهارات</h4>
+          <div class="skills">
+            <div class="skill"><strong>Flutter & Dart</strong> <div class="meter"><span style="width:95%"></span></div></div>
+            <div class="skill"><strong>State Management (Cubit)</strong> <div class="meter"><span style="width:88%"></span></div></div>
+            <div class="skill"><strong>HTTP (Dio) & APIs</strong> <div class="meter"><span style="width:85%"></span></div></div>
+            <div class="skill"><strong>Realtime / WebSockets</strong> <div class="meter"><span style="width:70%"></span></div></div>
+            <div class="skill"><strong>Maps & Location</strong> <div class="meter"><span style="width:72%"></span></div></div>
+          </div>
+        </div>
+
+        <div class="card small contact">
+          <h4 style="margin:0 0 8px 0;">Contact / تواصل</h4>
+          <div style="color:var(--muted); font-size:14px;">
+            GitHub: <a href="https://github.com/FadyShehataa" target="_blank">github.com/FadyShehataa</a><br>
+            LinkedIn: <a href="https://www.linkedin.com/in/fady-shehata-51aa5828a/" target="_blank">Fady Shehata</a><br>
+            Email: <a href="mailto:fadyshehata40@gmail.com">fadyshehata40@gmail.com</a>
+            <div style="margin-top:10px; font-size:13px; color:var(--muted)">Replace email with your real address.</div>
+          </div>
+        </div>
+
+      </aside>
+
     </div>
+
+    <footer class="pagefoot">
+      © <span id="year"></span> Fady Shehata — Flutter Developer
+    </footer>
+
   </div>
 
-  <!-- Talbinah Doctor -->
-  <div class="project-card">
-    <h2>Talbinah Doctor | تلبينة دكتور</h2>
-    <p class="description">
-      Doctor app for mental health professionals, psychologists, and social workers.  
-      تطبيقنا مصمم خصيصًا للأطباء النفسيين، المعالجين النفسين، العاملين في المجال الاجتماعي والأسري، وأطباء الأسرة.
-    </p>
-    <div class="badges">
-      <a href="https://play.google.com/store/apps/details?id=com.talbinah.doctor" target="_blank">
-        <img class="badge" src="https://img.shields.io/badge/Get%20it%20on%20google%20play-blue.svg?style=for-the-badge&logo=google-play">
-      </a>
-      <a href="https://apps.apple.com/us/app/talbinah-doctor/id6465690953" target="_blank">
-        <img class="badge" src="https://img.shields.io/badge/Get%20it%20on%20app%20store-black.svg?style=for-the-badge&logo=app-store&logoColor=white">
-      </a>
-    </div>
-  </div>
+  <script>
+    // set year
+    document.getElementById('year').innerText = new Date().getFullYear();
 
-  <!-- Torido Client -->
-  <div class="project-card">
-    <h2>Torido | توريدو</h2>
-    <p class="description">
-      App for light truck transport users providing best prices and offers for customers and service providers.  
-      هو عبارة عن تطبيق يخدم شريحة كبيرة من مستخدمي شاحنات النقل الخفيف بجميع انواعها ويقدم الخدمة للعميل و مقدمي الخدمة.
-    </p>
-    <div class="badges">
-      <a href="https://play.google.com/store/apps/details?id=com.torido.app" target="_blank">
-        <img class="badge" src="https://img.shields.io/badge/Get%20it%20on%20google%20play-blue.svg?style=for-the-badge&logo=google-play">
-      </a>
-      <a href="https://apps.apple.com/ug/app/torido-%D8%AA%D9%88%D8%B1%D9%8A%D8%AF%D9%88/id1554338202" target="_blank">
-        <img class="badge" src="https://img.shields.io/badge/Get%20it%20on%20app%20store-black.svg?style=for-the-badge&logo=app-store&logoColor=white">
-      </a>
-    </div>
-  </div>
+    // animate fade-up elements on view
+    function reveal(){
+      document.querySelectorAll('.fade-up').forEach((el, i) => {
+        const rect = el.getBoundingClientRect();
+        if(rect.top < window.innerHeight - 60){
+          el.classList.add('visible');
+        }
+      });
+    }
+    window.addEventListener('scroll', reveal);
+    window.addEventListener('load', () => {
+      reveal();
+      // set initial theme from localStorage
+      const page = document.querySelector('.page');
+      const saved = localStorage.getItem('portfolio-theme');
+      if(saved) page.setAttribute('data-theme', saved);
+    });
 
-  <!-- Torido Driver -->
-  <div class="project-card">
-    <h2>Torido Naqel | توريدو ناقل</h2>
-    <p class="description">
-      Driver app for managing light truck transport efficiently.  
-      تطبيق السائقين لإدارة عمليات النقل بكل سهولة وكفاءة.
-    </p>
-    <div class="badges">
-      <a href="https://play.google.com/store/apps/details?id=com.torido.driver" target="_blank">
-        <img class="badge" src="https://img.shields.io/badge/Get%20it%20on%20google%20play-blue.svg?style=for-the-badge&logo=google-play">
-      </a>
-      <a href="https://apps.apple.com/ug/app/torido-naqel-%D8%AA%D9%88%D8%B1%D9%8A%D8%AF%D9%88-%D9%86%D8%A7%D9%82%D9%84/id1554352273" target="_blank">
-        <img class="badge" src="https://img.shields.io/badge/Get%20it%20on%20app%20store-black.svg?style=for-the-badge&logo=app-store&logoColor=white">
-      </a>
-    </div>
-  </div>
+    // theme toggle
+    document.getElementById('toggleTheme').addEventListener('click', () => {
+      const page = document.querySelector('.page');
+      const cur = page.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+      page.setAttribute('data-theme', cur);
+      localStorage.setItem('portfolio-theme', cur);
+    });
 
-  <!-- REDF -->
-  <div class="project-card">
-    <h2>REDF</h2>
-    <p class="description">
-      Saudi Real Estate Development Fund app with legal management, task tracking, and document services.  
-      تطبيق تابع لصندوق التنمية العقارية بالسعودية يشمل إدارة القضايا، الاستشارات القانونية، وإدارة المهام.
-    </p>
-    <div class="badges">
-      <a href="https://play.google.com/store/apps/details?id=com.wakeb.redf" target="_blank">
-        <img class="badge" src="https://img.shields.io/badge/Get%20it%20on%20google%20play-blue.svg?style=for-the-badge&logo=google-play">
-      </a>
-    </div>
-  </div>
-
-  <!-- GITA -->
-  <div class="project-card">
-    <h2>GITA | جيتا</h2>
-    <p class="description">
-      Saudi travel app for flights, hotels, and tourism services with smart booking and loyalty points.  
-      تطبيق سعودي يقدم تجربة سفر متكاملة تشمل الحجز للطيران والفنادق والخدمات السياحية.
-    </p>
-    <div class="badges">
-      <a href="https://play.google.com/store/apps/details?id=com.eficta.flights" target="_blank">
-        <img class="badge" src="https://img.shields.io/badge/Get%20it%20on%20google%20play-blue.svg?style=for-the-badge&logo=google-play">
-      </a>
-      <a href="https://apps.apple.com/us/app/gita-flight-hotels-and-more/id6741498793" target="_blank">
-        <img class="badge" src="https://img.shields.io/badge/Get%20it%20on%20app%20store-black.svg?style=for-the-badge&logo=app-store&logoColor=white">
-      </a>
-    </div>
-  </div>
-
-  <!-- Mostaqer Client -->
-  <div class="project-card">
-    <h2>Mostaqer | مستقر</h2>
-    <p class="description">
-      Mental health support platform connecting users with specialists.  
-      منصة لدعم الصحة النفسية تربط المستخدمين بالخبراء المتخصصين.
-    </p>
-    <div class="badges">
-      <a href="https://play.google.com/store/apps/details?id=com.mostaqer.app" target="_blank">
-        <img class="badge" src="https://img.shields.io/badge/Get%20it%20on%20google%20play-blue.svg?style=for-the-badge&logo=google-play">
-      </a>
-      <a href="https://apps.apple.com/sa/app/mostaqer/id6744868537" target="_blank">
-        <img class="badge" src="https://img.shields.io/badge/Get%20it%20on%20app%20store-black.svg?style=for-the-badge&logo=app-store&logoColor=white">
-      </a>
-    </div>
-  </div>
-
-  <!-- Mostaqer Doctor -->
-  <div class="project-card">
-    <h2>Mostaqer Doctor | مستقر</h2>
-    <p class="description">
-      Doctor app for mental health specialists and social workers.  
-      تطبيق مصمم خصيصًا للأطباء النفسيين والمعالجين الاجتماعيين.
-    </p>
-    <div class="badges">
-      <a href="https://play.google.com/store/apps/details?id=com.mostaqer.doctor" target="_blank">
-        <img class="badge" src="https://img.shields.io/badge/Get%20it%20on%20google%20play-blue.svg?style=for-the-badge&logo=google-play">
-      </a>
-      <a href="https://apps.apple.com/sa/app/mostaqer-doctor/id6744868951" target="_blank">
-        <img class="badge" src="https://img.shields.io/badge/Get%20it%20on%20app%20store-black.svg?style=for-the-badge&logo=app-store&logoColor=white">
-      </a>
-    </div>
-  </div>
-
-  <!-- Soluche online -->
-  <div class="project-card">
-    <h2>Soluche online</h2>
-    <p class="description">
-      Comprehensive online learning platform with courses, live sessions, and certifications.  
-      منصة تعليمية شاملة عبر الإنترنت مع دورات، جلسات مباشرة، وشهادات.
-    </p>
-    <div class="badges">
-      <a href="https://play.google.com/store/apps/details?id=com.dcs.soluche" target="_blank">
-        <img class="badge" src="https://img.shields.io/badge/Get%20it%20on%20google%20play-blue.svg?style=for-the-badge&logo=google-play">
-      </a>
-    </div>
-  </div>
-
-  <!-- Quick Cargoo Client -->
-  <div class="project-card">
-    <h2>Quick Cargoo</h2>
-    <p class="description">
-      Connects shippers with transport companies to manage shipments efficiently.  
-      تطبيق يربط بين المرسلين وشركات النقل لتسهيل إدارة الشحنات.
-    </p>
-    <div class="badges">
-      <a href="https://play.google.com/store/apps/details?id=com.dcsec.quickcargoo" target="_blank">
-        <img class="badge" src="https://img.shields.io/badge/Get%20it%20on%20google%20play-blue.svg?style=for-the-badge&logo=google-play">
-      </a>
-      <a href="https://apps.apple.com/sa/app/quick-cargoo/id6737919571" target="_blank">
-        <img class="badge" src="https://img.shields.io/badge/Get%20it%20on%20app%20store-black.svg?style=for-the-badge&logo=app-store&logoColor=white">
-      </a>
-    </div>
-  </div>
-
-  <!-- Quick Cargoo Driver -->
-  <div class="project-card">
-    <h2>Quick Cargoo Driver</h2>
-    <p class="description">
-      App for drivers to manage shipments with trucks and cargo vehicles.  
-      تطبيق مخصص للسائقين لإدارة عمليات الشحن والتوصيل باستخدام الشاحنات.
-    </p>
-    <div class="badges">
-      <a href="https://play.google.com/store/apps/details?id=com.dcsec.quickcargoodriver" target="_blank">
-        <img class="badge" src="https://img.shields.io/badge/Get%20it%20on%20google%20play-blue.svg?style=for-the-badge&logo=google-play">
-      </a>
-    </div>
-  </div>
-
-</div>
+    // quick: change avatar if user drops a file (optional)
+    (function(){
+      const avatar = document.getElementById('avatarImg');
+      avatar.style.cursor = 'pointer';
+      avatar.title = 'Click to replace (use a URL or drop an image)';
+      avatar.addEventListener('click', () => {
+        const url = prompt('Paste image URL (or leave to cancel):', avatar.src);
+        if(url) avatar.src = url;
+      });
+    })();
+  </script>
 
 </body>
 </html>
