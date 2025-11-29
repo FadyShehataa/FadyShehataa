@@ -236,6 +236,18 @@ Hope is a groundbreaking sports app designed to elevate athletes' journeys. Enjo
 <hr>
 
 
+
+### Smart Farmer | الفلاح الذكى
+Smart Farmer, an application by Fifth Generation Software Company, is an integrated service application that serves a large sector of agriculturalists. It identifies plant diseases using artificial intelligence and provides information about agricultural companies and prices for various inputs and outputs of the agricultural process, such as pesticides, seeds, fertilizers, selling crops, and communicates with agricultural consultants.
+
+الفلاح الذكي وهو تطبيق لشركه الجيل الخامس للبرمجيات وهو تطبيق خدمي متكامل يخدم قطاع كبير من الزراعيين يتعرف علي المرض النباتي باستخدام الذكاء الاصطناعي ويوفر معلومات عن الشركات الزراعيه واسعار لمختلف المدخلات والمخرجات العمليه الزراعيه من مبيدات, تقاوي, اسمده, بيع المحاصيل ويتواصل مع استشاريين زراعيين.
+
+<p>
+
+  <a href="https://play.google.com/store/apps/details?id=com.fifthgeneration" target="_blank"><img alt="Google Play" src="https://img.shields.io/badge/Get%20it%20on%20google%20play-blue.svg?style=for-the-badge&logo=google-play" /></a>
+  
+<hr>
+
 ### Focuscoin
 
 The Focuscoin application is a new addition to useful learning tools and modern skills through a combination of information from artificial intelligence. It turns your reading and learning into currencies that you can spend on cash, discount coupons. Earned focuscoins are spent on products, services and activities, offered by our partner brands in the online marketplace. Or you can if you want to exchange it with your friends and family.
@@ -250,20 +262,9 @@ You will earn focuscoins whether you read the information you are interested in 
 
 
 
-<hr>
-
-### Smart Farmer | الفلاح الذكى
-Smart Farmer, an application by Fifth Generation Software Company, is an integrated service application that serves a large sector of agriculturalists. It identifies plant diseases using artificial intelligence and provides information about agricultural companies and prices for various inputs and outputs of the agricultural process, such as pesticides, seeds, fertilizers, selling crops, and communicates with agricultural consultants.
-
-الفلاح الذكي وهو تطبيق لشركه الجيل الخامس للبرمجيات وهو تطبيق خدمي متكامل يخدم قطاع كبير من الزراعيين يتعرف علي المرض النباتي باستخدام الذكاء الاصطناعي ويوفر معلومات عن الشركات الزراعيه واسعار لمختلف المدخلات والمخرجات العمليه الزراعيه من مبيدات, تقاوي, اسمده, بيع المحاصيل ويتواصل مع استشاريين زراعيين.
-
-<p>
-
-  <a href="https://play.google.com/store/apps/details?id=com.fifthgeneration" target="_blank"><img alt="Google Play" src="https://img.shields.io/badge/Get%20it%20on%20google%20play-blue.svg?style=for-the-badge&logo=google-play" /></a>
-  
-<hr>
 
 <!---
+<hr>
 
 
 ### Mayet Allah | معية الله
