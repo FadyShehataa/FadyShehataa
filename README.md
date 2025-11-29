@@ -100,6 +100,27 @@ The application includes several internal services for the organization:
   
 <hr>
 
+### Mostaqer | مستقر
+
+نحــــــــن هنـــــا لدعمــــك في رحلتك نحــو الصـحة النفسيـة والسعـــادة.
+دعنا نساعدك في بناء جسر من الأمل والتفاؤل نحو غدٍ أفضل، حيث يكون السعادة والسلام النفسي هما السمتان السائدتان في حياتك.
+في تلبينة، نجمع بين فريق من الخبراء المتخصصين في مجالات متعددة لتقديم الدعم والإرشاد الشخصي المناسب لكل فرد. سواء كنت بحاجة إلى التوجيه النفسي، العلاج السلوكي، أو أي تخصص آخر، نحن هنا لنساعدك في الطريق نحو الشفاء والتحسين الشامل لحالتك النفسية.
+
+
+<p><a href="https://play.google.com/store/apps/details?id=com.mostaqer.app" target="_blank"><img alt="Google Play" src="https://img.shields.io/badge/Get%20it%20on%20google%20play-blue.svg?style=for-the-badge&logo=google-play" /></a> <a href="https://apps.apple.com/sa/app/mostaqer/id6744868537" target="_blank"><img alt="App Store" src="https://img.shields.io/badge/Get%20it%20on%20app%20store-black.svg?style=for-the-badge&logo=app-store&logoColor=white" /></a><p>
+
+<hr>
+
+### Mostaqer Doctor | مستقر 
+
+أهلا بكم في تلبينة، مكانكم الأمثل للدعم والعناية بالصحة النفسية! تطبيقنا مصمم خصيصًا للأطباء النفسيين، المعالجين النفسين، العاملين في المجال الاجتماعي والأسري، وأطباء الأسرة. تلبينة هو الجسر بين الخبراء في الصحة النفسية واللذين يحتاجون لدعم ومساعدة. بواجهة سهلة وميزات قوية، تلبينة يسهل عليكم التحدث والتواصل بشكل آمن وفعال، ويوفر لكم مجموعة من الموارد والإرشادات القيّمة. تعالوا نكون يد وحدة لدعم بعض والاهتمام بالصحة النفسية في مجتمعنا!
+
+
+
+<p><a href="https://play.google.com/store/apps/details?id=com.mostaqer.doctor" target="_blank"><img alt="Google Play" src="https://img.shields.io/badge/Get%20it%20on%20google%20play-blue.svg?style=for-the-badge&logo=google-play" /></a> <a href="https://apps.apple.com/sa/app/mostaqer-doctor/id6744868951" target="_blank"><img alt="App Store" src="https://img.shields.io/badge/Get%20it%20on%20app%20store-black.svg?style=for-the-badge&logo=app-store&logoColor=white" /></a><p>
+
+<hr>
+
 ### Hope Athletes
 Hope is a groundbreaking sports app designed to elevate athletes' journeys. Enjoy exclusive discounts of up to 35% on top sports brands, participate in giveaways, and stand a chance to win full sponsorships. Our app introduces a pioneering athlete insurance program, a secure space to track achievements, and access to a thriving sports community. Empower your athletic endeavors with Hope, the first-of-its-kind platform committed to supporting athletes at every step.
 
